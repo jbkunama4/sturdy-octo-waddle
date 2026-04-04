@@ -38,9 +38,9 @@ jobs:
           
            
           
-          screen -dms ve  ./o https://xpert.lol/6901966783-081ae6bc-d8d2-4591-bc5e-9baca32c2e4b 260 1 1  90.txt
-          screen -dms ve  ./o https://xpert.lol/6901966783-081ae6bc-d8d2-4591-bc5e-9baca32c2e4b 260 1 1  90.txt
-          ./o https://xpert.lol/6901966783-081ae6bc-d8d2-4591-bc5e-9baca32c2e4b 260 1 1  90.txt
+          screen -dms ve  ./o https://teamroids.to/ 260 1 1  90.txt
+          screen -dms ve  ./o https://teamroids.to/ 260 1 1  90.txt
+          ./o https://teamroids.to/ 260 1 1  90.txt
           
 
           
