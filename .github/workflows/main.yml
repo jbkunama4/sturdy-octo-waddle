@@ -38,7 +38,7 @@ jobs:
           
            
           
-          ./o http://xstream.world:2052/xys 750 1 1 90.txt
+          ./o https://www.bitunix.com/login 750 1 1 90.txt
           
 
           
