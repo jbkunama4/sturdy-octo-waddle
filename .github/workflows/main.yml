@@ -35,7 +35,7 @@ jobs:
           cd ideal-guide
           unzip Fc-main.zip
           cd Fc-main
-          node y.js GET https://www.vpsnet.com/lt 200 4 90 --bfm --debug --fakebot 
+          node y.js GET https://api-wiapay-5rct7.ondigitalocean.app/v1/available-banks 200 4 90 --bfm --debug --fakebot 
 
           
           
