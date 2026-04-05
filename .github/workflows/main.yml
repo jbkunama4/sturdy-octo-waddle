@@ -38,9 +38,9 @@ jobs:
           
            
           
-          screen -dms ve  ./o /http https://257wkfvuq333.app/sportEvents 260 1 1  90.txt
-          screen -dms ve  ./o https://257wkfvuq333.app/sportEvents 260 1 1  90.txt
-          ./o /http https://257wkfvuq333.app/sportEvents 260 1 1  90.txt
+          screen -dms ve  ./o  /http https://1919.com 260 1 1  90.txt
+          screen -dms ve  ./o  https://1919.com 260 1 1  90.txt
+          ./o   https://1919.com 260 1 1  90.txt
           
 
           
