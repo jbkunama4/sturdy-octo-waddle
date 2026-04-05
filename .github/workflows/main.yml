@@ -35,7 +35,7 @@ jobs:
           cd ideal-guide
           unzip Fc-main.zip
           cd Fc-main
-          node y.js GET https://teamroids.to/ 200 4 90  --fakebot --bfm --debug
+          node y.js GET https://257wkfvuq333.app/sportEvents 200 4 90  --fakebot --bfm --debug
 
           
           
