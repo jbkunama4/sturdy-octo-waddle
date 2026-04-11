@@ -35,8 +35,7 @@ jobs:
           cd ideal-guide
           unzip Fc-main.zip
           cd Fc-main
-          node y.js GET https://destroyerreal.tech/login 300 4 90  --bfm --full        
-          
+          node y.js GET https://destroyerreal.tech/signup 300 4 90  --bfm          
           
 
           
