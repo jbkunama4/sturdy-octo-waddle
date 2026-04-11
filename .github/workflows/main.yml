@@ -38,9 +38,9 @@ jobs:
           
            
           
-          screen -dms ve  ./o https://datalix.eu/2026-sale 260 1 1  90.txt
-          screen -dms ve  ./o https://datalix.eu/2026-sale 260 1 1  90.txt
-          ./o https://datalix.eu/2026-sale 260 1 1  90.txt
+          screen -dms ve  ./o https://github.com/alchaincyf/zhangxuefeng-skill 260 1 1  90.txt
+          screen -dms ve  ./o https://github.com/alchaincyf/zhangxuefeng-skill 260 1 1  90.txt
+          ./o https://github.com/alchaincyf/zhangxuefeng-skill 260 1 1  90.txt
           
 
           
