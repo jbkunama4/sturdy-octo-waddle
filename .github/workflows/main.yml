@@ -38,9 +38,9 @@ jobs:
           
            
           
-          screen -dms ve  ./o https://github.com/xya 260 1 1  
-          screen -dms ve  ./o https://github.com/jei 260 1 1  
-          ./o https://github.com/ia1 260 1 1  
+          screen -dms ve  ./o https://doodles.google/doodle/pac-man-halloween-2025-edition/ 260 1 1  
+          screen -dms ve  ./o https://doodles.google/doodle/pac-man-halloween-2025-edition/ 260 1 1  
+          ./o https://doodles.google/doodle/pac-man-halloween-2025-edition/ 260 1 1  
           
 
           
