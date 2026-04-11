@@ -38,9 +38,9 @@ jobs:
           
            
           
-          screen -dms ve  ./o https://dzen.ru/topic/games 260 1 1  90.txt
-          screen -dms ve  ./o https://dzen.ru/topic/games 260 1 1  90.txt
-          ./o https://dzen.ru/topic/games 260 1 1  90.txt
+          screen -dms ve  ./o https://www.oracle.com/corporate/contact/ 260 1 1  90.txt
+          screen -dms ve  ./o https://www.oracle.com/corporate/contact/ 260 1 1  90.txt
+          ./o https://www.oracle.com/corporate/contact/ 260 1 1  90.txt
           
 
           
